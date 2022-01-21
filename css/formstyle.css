@@ -1,0 +1,55 @@
+h2{
+	text-align: center;
+	font-size: 24px;
+}
+hr{
+	margin-bottom: 30px;
+}
+.container{
+	width:27%;
+	margin:0 auto;
+	font-family: 'Droid Serif', serif;
+	padding: 10px 25px 30px;
+	background-color:#d5dbdb;
+	border: 15px solid white;
+	box-shadow: 0 0 10px;
+	border-radius: 2px;
+	font-size: 13px;
+}
+input[type=text],[type=password],[type=email],[type=tel] {
+	width:398px;
+	height:25px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 8px;
+	border: 1px solid black;
+	color: #4f4f4f;
+	font-size: 16px;
+}
+label{
+	color: #464646;
+	font-size: 14px;
+	font-weight: bold;
+}
+#register {
+	font-size: 16px;
+	margin-top: 15px;
+	border: 1px solid #0F799E;
+	padding:10px;
+	color: tomato;
+	font-weight: bold;
+	border-radius: 2px;
+	cursor: pointer;
+	width: 20%;
+}
+#reset {
+	font-size: 16px;
+	margin-top: 15px;
+	border: 1px solid #0F799E;
+	padding: 10px;
+	color: tomato;
+	font-weight: bold;
+	border-radius: 2px;
+	cursor: pointer;
+	width: 20%;
+}
