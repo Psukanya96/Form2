@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registration Form Using jQuery</title>
+		<link type="text/css" rel="stylesheet" href="css/formstyle.css" /> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="jQ/validation.js"></script>
+	</head>
+	<body>
+		<div class="main1">
+			<h2>Registration Form</h2>
+			<button id="hide">HIDE FORM</button>
+			<button id="show">SHOW FORM</button>
+		</div>
+		<div class="container">
+			<div class="main">
+				<form  name="myform" class="form" method="post" action="#" >
+					<label>Name :</label>
+					<input type="text" name="myname" id="name" onblur="checkName();">
+					<!--<span class="error_text" id="name_error"></span>-->
+					<label>Gender:</label>
+					<input type="radio" id="male" name="gender" value="Male">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender" value="Female" >
+					<label for="male">Female</label>
+					<input type="radio" id="other" name="gender" value="Other">
+					<label for="male">Other</label>
+					<p><label>Password :</label></p>
+					<input type="password" name="password" id="password" onblur="checkPass();">
+					<label>Confirm Password :</label>
+					<input type="password" name="cpassword" id="cpassword" onblur="checkRepass();">
+					<label>Address: </label>
+					<input type="text" name="address" id="address" placeholder="Flat/House No. Colony/Street No." onblur="checkAddress();">
+					<label>E-mail : </label>
+					<input type="email"  name="email" id="email" onblur="checkemail();">
+					<label>Mobile No:</label> 
+					<input type="tel" id="phone" name="mobile" onblur="checkphone();" >
+					<p>
+						<label>Choose your Hobbies:</label>
+						<input type="checkbox"  name="hobby1" value="Reading">
+						<label>Reading</label>
+						<input type="checkbox"  name="hobby2" value="Outdoor Games">
+						<label>Outdoor Games</label>
+						<input type="checkbox"  name="hobby3" value="Surfing Internet">
+						<label>Surfing Internet</label>
+						<input type="checkbox"  name="hobby4" value="Artistic">
+						<label>Artistic</label>
+						<input type="checkbox" name="hobby5" value="Other" CHECKED>
+						<label>Other</label>
+					</p>
+					<label>Upload your photo:</label>
+					<input type="file" id="myfile" name="img"  />
+					<input type="reset" value="Reset" name="Reset" id="reset" >
+					<input type="button" name="register" id="register" value="Submit">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
